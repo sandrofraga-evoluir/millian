@@ -3,6 +3,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { hotel } from "@/lib/content";
 import { navLinks } from "@/lib/nav";
 import { ManageCookiesButton } from "@/components/manage-cookies-button";
+import { PetFriendlyBadge } from "@/components/pet-friendly-badge";
 
 export function SiteFooter() {
   return (
@@ -11,11 +12,14 @@ export function SiteFooter() {
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
             <p className="font-heading text-2xl text-white">Millian Hotel</p>
-            <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/60">
-              Um hotel de família na principal avenida de Jundiaí, recebendo
-              hóspedes há 18 anos com o cuidado de quem está no ramo hoteleiro
-              há mais de quatro décadas.
-            </p>
+            <div className="mt-4 flex flex-wrap items-start gap-6">
+              <p className="max-w-sm text-sm leading-relaxed text-white/60">
+                Um hotel de família na principal avenida de Jundiaí, recebendo
+                hóspedes há 18 anos com o cuidado de quem está no ramo
+                hoteleiro há mais de quatro décadas.
+              </p>
+              <PetFriendlyBadge />
+            </div>
           </div>
 
           <div>
