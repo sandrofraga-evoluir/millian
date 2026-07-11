@@ -51,6 +51,56 @@ export const diferenciais = [
   },
 ] as const;
 
+export const faq = [
+  {
+    pergunta: "Como faço para reservar um quarto no Hotel Millian?",
+    resposta:
+      "O jeito mais rápido é pelo WhatsApp, (11) 98404-3609 — nossa recepção funciona 24 horas. Também é possível reservar pelo Booking.com.",
+  },
+  {
+    pergunta: "Quais são os horários de check-in e check-out?",
+    resposta: "Check-in a partir das 14h e check-out até as 12h.",
+  },
+  {
+    pergunta: "O café da manhã está incluso na diária?",
+    resposta:
+      "Sim. Todos os hóspedes têm café da manhã incluso, servido todos os dias no salão do hotel.",
+  },
+  {
+    pergunta: "O hotel aceita pets?",
+    resposta:
+      "Sim, o Millian é pet friendly — pode ser cobrada uma taxa adicional. Recomendamos avisar a recepção no momento da reserva.",
+  },
+  {
+    pergunta: "O estacionamento é gratuito?",
+    resposta: "Sim, o estacionamento é gratuito para os hóspedes.",
+  },
+  {
+    pergunta: "Quais formas de pagamento são aceitas?",
+    resposta: "Cartão de crédito, cartão de débito, Pix e dinheiro.",
+  },
+  {
+    pergunta: "O Hotel Millian atende empresas e contas corporativas?",
+    resposta:
+      "Sim — hoje a maior parte das nossas reservas vem de contas corporativas. Fale com a nossa equipe comercial pela página de Empresas.",
+  },
+  {
+    pergunta: "O hotel tem estrutura para eventos e reuniões?",
+    resposta:
+      "Sim: sala de reunião para até 10 pessoas e um salão que comporta até 60 pessoas, para confraternizações e pequenos eventos.",
+  },
+  {
+    pergunta: "Qual é a política de cancelamento?",
+    resposta:
+      "As condições de cancelamento variam conforme a tarifa e o canal de reserva. Confirme os detalhes no momento da reserva, direto com a recepção ou pelo Booking.com.",
+  },
+  {
+    pergunta: "Crianças podem se hospedar no hotel?",
+    resposta:
+      "Sim, crianças de qualquer idade são bem-vindas. A partir dos 4 anos, tarifa de adulto pode ser aplicada — consulte a recepção ao reservar.",
+  },
+] as const;
+
 export const historia = {
   fundacao:
     "O Hotel Millian tem hoje 18 anos. Nasceu em 2008, a partir da compra do local e da reforma completa do prédio.",

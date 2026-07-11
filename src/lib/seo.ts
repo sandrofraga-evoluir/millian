@@ -1,4 +1,4 @@
-import { hotel, avaliacoes, comodidadesQuarto, servicosHotel } from "@/lib/content";
+import { hotel, avaliacoes, comodidadesQuarto, servicosHotel, faq } from "@/lib/content";
 
 export const SITE_URL = "https://millianhotel.com.br";
 export const SITE_NAME = "Hotel Millian";
@@ -45,5 +45,20 @@ export function getHotelJsonLd() {
     })),
     petsAllowed: true,
     sameAs: [hotel.bookingUrl],
+  };
+}
+
+export function getFaqJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
+      "@type": "Question",
+      name: item.pergunta,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.resposta,
+      },
+    })),
   };
 }

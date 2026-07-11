@@ -2,7 +2,15 @@ import type { Metadata } from "next";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
 import { Carousel } from "@/components/carousel";
-import { historia, imagens } from "@/lib/content";
+import { WhatsappButton } from "@/components/whatsapp-button";
+import {
+  Accordion,
+  AccordionItem,
+  AccordionTrigger,
+  AccordionContent,
+} from "@/components/ui/accordion";
+import { historia, imagens, faq } from "@/lib/content";
+import { getFaqJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Sobre",
@@ -19,8 +27,14 @@ const marcos = [
 ];
 
 export default function SobrePage() {
+  const faqJsonLd = getFaqJsonLd();
+
   return (
     <div className="flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+      />
       <section className="mx-auto grid w-full max-w-6xl gap-10 px-6 pt-8 pb-16 sm:px-8 lg:grid-cols-2 lg:items-center lg:gap-16">
         <Reveal>
           <SectionHeading
@@ -64,6 +78,43 @@ export default function SobrePage() {
             </Reveal>
           ))}
         </div>
+      </section>
+
+      <section className="mx-auto w-full max-w-3xl px-6 py-16 sm:px-8">
+        <Reveal>
+          <SectionHeading
+            eyebrow="Dúvidas frequentes"
+            title="Perguntas que todo hóspede faz."
+          />
+        </Reveal>
+        <Reveal delay={0.1}>
+          <div className="mt-10 rounded-[2rem] bg-card p-6 ring-1 ring-foreground/5 sm:p-8">
+            <Accordion>
+              {faq.map((item) => (
+                <AccordionItem key={item.pergunta}>
+                  <AccordionTrigger className="text-base text-foreground">
+                    {item.pergunta}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-muted-foreground">
+                    {item.resposta}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
+        </Reveal>
+        <Reveal delay={0.15}>
+          <div className="mt-8 flex flex-col items-start gap-4 rounded-2xl bg-secondary/60 px-6 py-6 sm:flex-row sm:items-center sm:justify-between">
+            <p className="text-sm text-foreground/80">
+              Não achou o que procurava? Fale direto com a recepção.
+            </p>
+            <WhatsappButton
+              label="Chamar no WhatsApp"
+              message="Olá! Tenho uma dúvida sobre o Hotel Millian."
+              className="shrink-0"
+            />
+          </div>
+        </Reveal>
       </section>
     </div>
   );
