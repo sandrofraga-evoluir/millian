@@ -18,7 +18,9 @@ export default function ContatoPage() {
       icon: MessageCircle,
       label: "WhatsApp",
       value: hotel.whatsapp.display,
-      href: hotel.whatsapp.url,
+      href: `${hotel.whatsapp.url}?text=${encodeURIComponent(
+        "Olá! Encontrei o Hotel Millian pelo site e gostaria de mais informações."
+      )}`,
     },
     {
       icon: Phone,
@@ -55,7 +57,10 @@ export default function ContatoPage() {
             align="center"
           />
           <div className="mt-8 flex justify-center">
-            <WhatsappButton label="Chamar no WhatsApp" />
+            <WhatsappButton
+              label="Chamar no WhatsApp"
+              message="Olá! Gostaria de falar com a recepção do Hotel Millian."
+            />
           </div>
         </Reveal>
       </section>

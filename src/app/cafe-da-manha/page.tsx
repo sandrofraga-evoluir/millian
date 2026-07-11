@@ -68,7 +68,11 @@ export default function CafeDaManhaPage() {
             manhã do jeito que for melhor para você.
           </p>
           <div className="mt-8">
-            <WhatsappButton variant="brass" label="Falar com a recepção" />
+            <WhatsappButton
+              variant="brass"
+              label="Falar com a recepção"
+              message="Olá! Tenho uma restrição alimentar e gostaria de saber mais sobre o café da manhã do Hotel Millian."
+            />
           </div>
         </Reveal>
       </section>

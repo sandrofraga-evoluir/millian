@@ -47,7 +47,10 @@ export default function Home() {
             visita de casa.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <WhatsappButton label="Reservar pelo WhatsApp" />
+            <WhatsappButton
+              label="Reservar pelo WhatsApp"
+              message="Olá! Gostaria de saber mais sobre hospedagem no Hotel Millian."
+            />
             <Link
               href="/quartos"
               className="group inline-flex items-center gap-2 text-sm font-medium text-foreground"
@@ -248,7 +251,11 @@ export default function Home() {
             atendimento 24 horas.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
-            <WhatsappButton variant="brass" label="Chamar no WhatsApp" />
+            <WhatsappButton
+              variant="brass"
+              label="Chamar no WhatsApp"
+              message="Olá! Gostaria de fazer uma reserva no Hotel Millian."
+            />
             <a
               href={hotel.bookingUrl}
               target="_blank"
