@@ -123,7 +123,7 @@ export function SiteHeader() {
                 >
                   <Link
                     href={link.href}
-                    className="block border-b border-white/10 py-4 font-heading text-3xl text-white/90 transition-colors hover:text-brass"
+                    className="block border-b border-white/10 py-3.5 font-heading text-2xl text-white/90 transition-colors hover:text-brass"
                   >
                     {link.label}
                   </Link>
