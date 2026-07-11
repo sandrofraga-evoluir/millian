@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { hotel } from "@/lib/content";
 import { navLinks } from "@/lib/nav";
+import { ManageCookiesButton } from "@/components/manage-cookies-button";
 
 export function SiteFooter() {
   return (
@@ -60,14 +61,31 @@ export function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-16 flex flex-col gap-2 border-t border-white/10 pt-8 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            {hotel.razaoSocial} · CNPJ {hotel.cnpj}
-          </p>
-          <p>
-            © {new Date().getFullYear()} Hotel Millian. Todos os direitos
-            reservados.
-          </p>
+        <div className="mt-16 flex flex-col gap-4 border-t border-white/10 pt-8 text-xs text-white/40 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-col gap-2 sm:gap-1">
+            <p>
+              {hotel.razaoSocial} · CNPJ {hotel.cnpj}
+            </p>
+            <p>
+              © {new Date().getFullYear()} Hotel Millian. Todos os direitos
+              reservados.
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center gap-x-5 gap-y-2">
+            <Link
+              href="/politica-de-privacidade"
+              className="transition-colors hover:text-white/70"
+            >
+              Política de Privacidade
+            </Link>
+            <Link
+              href="/politica-de-cookies"
+              className="transition-colors hover:text-white/70"
+            >
+              Política de Cookies
+            </Link>
+            <ManageCookiesButton className="transition-colors hover:text-white/70" />
+          </div>
         </div>
       </div>
     </footer>

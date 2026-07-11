@@ -10,6 +10,8 @@ const routes: { path: string; priority: number; changeFrequency: "weekly" | "mon
   { path: "/sobre", priority: 0.5, changeFrequency: "monthly" },
   { path: "/localizacao", priority: 0.6, changeFrequency: "monthly" },
   { path: "/contato", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/politica-de-privacidade", priority: 0.2, changeFrequency: "monthly" },
+  { path: "/politica-de-cookies", priority: 0.2, changeFrequency: "monthly" },
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
