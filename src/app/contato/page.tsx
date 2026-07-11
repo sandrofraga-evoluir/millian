@@ -29,7 +29,12 @@ export default function ContatoPage() {
     {
       icon: Mail,
       label: "E-mail",
-      value: hotel.emails.recepcao,
+      value: (
+        <>
+          {hotel.emails.recepcao.split("@")[0]}
+          <wbr />@{hotel.emails.recepcao.split("@")[1]}
+        </>
+      ),
       href: `mailto:${hotel.emails.recepcao}`,
     },
     {
@@ -67,7 +72,7 @@ export default function ContatoPage() {
                 <p className="text-[11px] font-medium tracking-[0.15em] text-muted-foreground uppercase">
                   {card.label}
                 </p>
-                <p className="text-sm text-foreground">{card.value}</p>
+                <p className="w-full text-sm break-words text-foreground">{card.value}</p>
               </div>
             );
             return (
