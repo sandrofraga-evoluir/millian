@@ -8,7 +8,7 @@ import { cafeDaManha, imagens } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Café da manhã",
   description:
-    "Café da manhã estilo continental, self-service, com comidas frescas preparadas no próprio Hotel Millian, em Jundiaí-SP.",
+    "Café da manhã estilo continental, self-service, com comidas frescas preparadas no próprio Millian Hotel, em Jundiaí-SP.",
   alternates: { canonical: "/cafe-da-manha" },
 };
 
@@ -71,7 +71,7 @@ export default function CafeDaManhaPage() {
             <WhatsappButton
               variant="brass"
               label="Falar com a recepção"
-              message="Olá! Tenho uma restrição alimentar e gostaria de saber mais sobre o café da manhã do Hotel Millian."
+              message="Olá! Tenho uma restrição alimentar e gostaria de saber mais sobre o café da manhã do Millian Hotel."
             />
           </div>
         </Reveal>

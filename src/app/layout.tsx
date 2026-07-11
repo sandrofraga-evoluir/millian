@@ -19,7 +19,7 @@ const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
 });
 
-const title = "Hotel Millian | Hospedagem em Jundiaí, SP";
+const title = "Millian Hotel | Hospedagem em Jundiaí, SP";
 const description =
   "Hotel familiar na Av. Nove de Julho, Jundiaí-SP, a 400m do Jundiaí Shopping. Quartos Standard e Suíte, café da manhã farto e estrutura para eventos corporativos.";
 
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     "hospedagem Jundiaí",
     "hotel Av. Nove de Julho",
     "hotel para eventos corporativos Jundiaí",
-    "Hotel Millian",
+    "Millian Hotel",
   ],
   alternates: {
     canonical: "/",

@@ -8,7 +8,7 @@ import { hotel } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Contato",
   description:
-    "Fale com o Hotel Millian: telefone, WhatsApp, e-mail e endereço na Av. Nove de Julho, Jundiaí-SP. Recepção 24 horas.",
+    "Fale com o Millian Hotel: telefone, WhatsApp, e-mail e endereço na Av. Nove de Julho, Jundiaí-SP. Recepção 24 horas.",
   alternates: { canonical: "/contato" },
 };
 
@@ -19,7 +19,7 @@ export default function ContatoPage() {
       label: "WhatsApp",
       value: hotel.whatsapp.display,
       href: `${hotel.whatsapp.url}?text=${encodeURIComponent(
-        "Olá! Encontrei o Hotel Millian pelo site e gostaria de mais informações."
+        "Olá! Encontrei o Millian Hotel pelo site e gostaria de mais informações."
       )}`,
     },
     {
@@ -59,7 +59,7 @@ export default function ContatoPage() {
           <div className="mt-8 flex justify-center">
             <WhatsappButton
               label="Chamar no WhatsApp"
-              message="Olá! Gostaria de falar com a recepção do Hotel Millian."
+              message="Olá! Gostaria de falar com a recepção do Millian Hotel."
             />
           </div>
         </Reveal>

@@ -6,7 +6,7 @@ import { hotel } from "@/lib/content";
 import { CONSENT_EVENT, getStoredConsent } from "@/lib/consent";
 import { cn } from "@/lib/utils";
 
-const MESSAGE = "Olá! Gostaria de saber mais sobre o Hotel Millian.";
+const MESSAGE = "Olá! Gostaria de saber mais sobre o Millian Hotel.";
 
 function subscribe(callback: () => void) {
   window.addEventListener(CONSENT_EVENT, callback);

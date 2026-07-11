@@ -10,7 +10,7 @@ export function SiteFooter() {
       <div className="mx-auto max-w-6xl px-6 py-20 sm:px-8">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <p className="font-heading text-2xl text-white">Hotel Millian</p>
+            <p className="font-heading text-2xl text-white">Millian Hotel</p>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-white/60">
               Um hotel de família na principal avenida de Jundiaí, recebendo
               hóspedes há 18 anos com o cuidado de quem está no ramo hoteleiro
@@ -67,7 +67,7 @@ export function SiteFooter() {
               {hotel.razaoSocial} · CNPJ {hotel.cnpj}
             </p>
             <p>
-              © {new Date().getFullYear()} Hotel Millian. Todos os direitos
+              © {new Date().getFullYear()} Millian Hotel. Todos os direitos
               reservados.
             </p>
           </div>

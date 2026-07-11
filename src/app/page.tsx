@@ -49,7 +49,7 @@ export default function Home() {
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <WhatsappButton
               label="Reservar pelo WhatsApp"
-              message="Olá! Gostaria de saber mais sobre hospedagem no Hotel Millian."
+              message="Olá! Gostaria de saber mais sobre hospedagem no Millian Hotel."
             />
             <Link
               href="/quartos"
@@ -254,7 +254,7 @@ export default function Home() {
             <WhatsappButton
               variant="brass"
               label="Chamar no WhatsApp"
-              message="Olá! Gostaria de fazer uma reserva no Hotel Millian."
+              message="Olá! Gostaria de fazer uma reserva no Millian Hotel."
             />
             <a
               href={hotel.bookingUrl}

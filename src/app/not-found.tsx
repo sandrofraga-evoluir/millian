@@ -21,7 +21,7 @@ export default function NotFound() {
         </h1>
         <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
           O endereço que você tentou acessar não existe ou não está mais
-          disponível. Mas fica tranquilo — a recepção do Hotel Millian
+          disponível. Mas fica tranquilo — a recepção do Millian Hotel
           funciona 24 horas, prontos pra te ajudar a achar o caminho certo.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
@@ -37,7 +37,7 @@ export default function NotFound() {
           <WhatsappButton
             variant="outline"
             label="Falar com a recepção"
-            message="Olá! Cheguei numa página que não existe no site do Hotel Millian e preciso de ajuda."
+            message="Olá! Cheguei numa página que não existe no site do Millian Hotel e preciso de ajuda."
           />
         </div>
       </Reveal>

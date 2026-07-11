@@ -9,7 +9,7 @@ import { quartos, comodidadesQuarto } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Quartos",
   description:
-    "Conheça os quartos Standard e Suíte do Hotel Millian, em Jundiaí-SP: ar-condicionado, TV, frigobar, Wi-Fi, cofre e secador de cabelo.",
+    "Conheça os quartos Standard e Suíte do Millian Hotel, em Jundiaí-SP: ar-condicionado, TV, frigobar, Wi-Fi, cofre e secador de cabelo.",
   alternates: { canonical: "/quartos" },
 };
 
@@ -62,7 +62,7 @@ export default function QuartosPage() {
               <div className="mt-8">
                 <WhatsappButton
                   label={`Reservar ${quarto.nome}`}
-                  message={`Olá! Gostaria de reservar um quarto ${quarto.nome} no Hotel Millian.`}
+                  message={`Olá! Gostaria de reservar um quarto ${quarto.nome} no Millian Hotel.`}
                 />
               </div>
             </Reveal>

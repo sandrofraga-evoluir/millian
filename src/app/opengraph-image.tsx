@@ -3,7 +3,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { hotel, avaliacoes } from "@/lib/content";
 
-export const alt = "Hotel Millian — Hospedagem em Jundiaí, SP";
+export const alt = "Millian Hotel — Hospedagem em Jundiaí, SP";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

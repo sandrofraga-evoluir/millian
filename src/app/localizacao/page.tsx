@@ -7,7 +7,7 @@ import { hotel, localizacao } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Localização",
   description:
-    "O Hotel Millian fica na Av. Nove de Julho, em Jundiaí-SP, a 400m do Jundiaí Shopping e perto dos principais parques da região.",
+    "O Millian Hotel fica na Av. Nove de Julho, em Jundiaí-SP, a 400m do Jundiaí Shopping e perto dos principais parques da região.",
   alternates: { canonical: "/localizacao" },
 };
 
@@ -35,7 +35,7 @@ export default function LocalizacaoPage() {
         <Reveal>
           <div className="overflow-hidden rounded-[2rem] ring-1 ring-foreground/5">
             <iframe
-              title="Mapa do Hotel Millian"
+              title="Mapa do Millian Hotel"
               src={mapsUrl}
               className="h-[420px] w-full grayscale-[15%]"
               loading="lazy"

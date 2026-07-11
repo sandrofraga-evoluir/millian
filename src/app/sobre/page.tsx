@@ -15,7 +15,7 @@ import { getFaqJsonLd } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Sobre",
   description:
-    "A história do Hotel Millian: fundado em 2008 em Jundiaí-SP por uma família no ramo hoteleiro há mais de 40 anos.",
+    "A história do Millian Hotel: fundado em 2008 em Jundiaí-SP por uma família no ramo hoteleiro há mais de 40 anos.",
   alternates: { canonical: "/sobre" },
 };
 
@@ -110,7 +110,7 @@ export default function SobrePage() {
             </p>
             <WhatsappButton
               label="Chamar no WhatsApp"
-              message="Olá! Tenho uma dúvida sobre o Hotel Millian."
+              message="Olá! Tenho uma dúvida sobre o Millian Hotel."
               className="shrink-0"
             />
           </div>

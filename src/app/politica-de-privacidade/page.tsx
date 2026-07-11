@@ -7,7 +7,7 @@ import { hotel } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Política de Privacidade",
   description:
-    "Política de Privacidade do Hotel Millian: como tratamos dados no site, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
+    "Política de Privacidade do Millian Hotel: como tratamos dados no site, em conformidade com a Lei Geral de Proteção de Dados (LGPD).",
   alternates: { canonical: "/politica-de-privacidade" },
 };
 

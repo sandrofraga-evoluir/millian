@@ -36,7 +36,7 @@ export function SiteHeader() {
           <Link href="/" className="flex shrink-0 items-center gap-2">
             <Image
               src="/logo.png"
-              alt="Hotel Millian"
+              alt="Millian Hotel"
               width={92}
               height={44}
               className="h-7 w-auto"
@@ -98,7 +98,7 @@ export function SiteHeader() {
             <div className="flex items-center justify-between px-6 py-5">
               <Image
                 src="/logo.png"
-                alt="Hotel Millian"
+                alt="Millian Hotel"
                 width={92}
                 height={44}
                 className="h-7 w-auto brightness-0 invert"

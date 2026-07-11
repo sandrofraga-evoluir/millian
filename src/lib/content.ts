@@ -1,8 +1,8 @@
-// Conteúdo institucional do Hotel Millian, extraído do levantamento de
+// Conteúdo institucional do Millian Hotel, extraído do levantamento de
 // informações preenchido pelo cliente (Bruna, Sub Gerente) em 18/06/2026.
 
 export const hotel = {
-  nomeFantasia: "Hotel Millian",
+  nomeFantasia: "Millian Hotel",
   slogan: "O seu bem-estar é o nosso objetivo.",
   razaoSocial: "Maria Emilia Marcansola Zacarias EPP",
   cnpj: "09.174.451/0001-10",
@@ -11,7 +11,7 @@ export const hotel = {
     cidade: "Jundiaí - SP",
     cep: "13.208-056",
     completo: "Av. Nove de Julho, 2681, Anhangabaú, Jundiaí - SP, 13.208-056",
-    mapsQuery: "Hotel Millian, Av. Nove de Julho, 2681, Anhangabaú, Jundiaí - SP, 13208-056",
+    mapsQuery: "Millian Hotel, Av. Nove de Julho, 2681, Anhangabaú, Jundiaí - SP, 13208-056",
   },
   geo: { latitude: -23.1985055, longitude: -46.8905613 },
   telefones: ["(11) 3395-4493", "(11) 98404-3609"],
@@ -53,7 +53,7 @@ export const diferenciais = [
 
 export const faq = [
   {
-    pergunta: "Como faço para reservar um quarto no Hotel Millian?",
+    pergunta: "Como faço para reservar um quarto no Millian Hotel?",
     resposta:
       "O jeito mais rápido é pelo WhatsApp, (11) 98404-3609 — nossa recepção funciona 24 horas. Também é possível reservar pelo Booking.com.",
   },
@@ -80,7 +80,7 @@ export const faq = [
     resposta: "Cartão de crédito, cartão de débito, Pix e dinheiro.",
   },
   {
-    pergunta: "O Hotel Millian atende empresas e contas corporativas?",
+    pergunta: "O Millian Hotel atende empresas e contas corporativas?",
     resposta:
       "Sim — hoje a maior parte das nossas reservas vem de contas corporativas. Fale com a nossa equipe comercial pela página de Empresas.",
   },
@@ -103,7 +103,7 @@ export const faq = [
 
 export const historia = {
   fundacao:
-    "O Hotel Millian tem hoje 18 anos. Nasceu em 2008, a partir da compra do local e da reforma completa do prédio.",
+    "O Millian Hotel tem hoje 18 anos. Nasceu em 2008, a partir da compra do local e da reforma completa do prédio.",
   origem:
     "Um hotel familiar que leva o nome da fazenda em que o fundador nasceu — a Fazenda Millian, localizada no interior do estado de São Paulo.",
   tradicao:
@@ -274,8 +274,8 @@ export const cafeDestaque = [cafeBuffetPaes, cafeEstacaoQuente, cafePratoFrutas]
 
 export const imagens = {
   recepcao: [
-    { src: "/images/recepcao/recepcao-hotel.jpg", alt: "Recepção do Hotel Millian, com o logo iluminado na parede" },
-    { src: "/images/recepcao/recepcao-fachada.jpg", alt: "Fachada do Hotel Millian na Av. Nove de Julho" },
+    { src: "/images/recepcao/recepcao-hotel.jpg", alt: "Recepção do Millian Hotel, com o logo iluminado na parede" },
+    { src: "/images/recepcao/recepcao-fachada.jpg", alt: "Fachada do Millian Hotel na Av. Nove de Julho" },
     { src: "/images/recepcao/recepcao-amenities.jpg", alt: "Amenities Millian sobre a toalha, na cama" },
   ],
   cafe: [
@@ -306,16 +306,16 @@ export const imagens = {
   ],
   detalhes: [
     { src: "/images/detalhes/detalhe-01.jpg", alt: "Detalhe de conforto no quarto, com revista e óculos sobre a cama" },
-    { src: "/images/detalhes/detalhe-02.jpg", alt: "Logotipo do Hotel Millian na parede da recepção" },
+    { src: "/images/detalhes/detalhe-02.jpg", alt: "Logotipo do Millian Hotel na parede da recepção" },
     { src: "/images/detalhes/detalhe-03.jpg", alt: "Secador de cabelo disponível no quarto" },
     { src: "/images/detalhes/detalhe-04.jpg", alt: "Travesseiros macios sobre a cama" },
     { src: "/images/detalhes/detalhe-05.jpg", alt: "Guarda-roupa do quarto, com toalhas e cabides" },
     { src: "/images/detalhes/detalhe-06.jpg", alt: "Café servido com carinho pela equipe do Millian" },
   ],
   sobre: [
-    { src: "/images/detalhes/detalhe-02.jpg", alt: "Logotipo do Hotel Millian na parede da recepção" },
-    { src: "/images/sobre/sobre-01.jpg", alt: "Entrada do Hotel Millian, com tapete de boas-vindas e recepção ao fundo" },
-    { src: "/images/recepcao/recepcao-fachada.jpg", alt: "Fachada do Hotel Millian" },
+    { src: "/images/detalhes/detalhe-02.jpg", alt: "Logotipo do Millian Hotel na parede da recepção" },
+    { src: "/images/sobre/sobre-01.jpg", alt: "Entrada do Millian Hotel, com tapete de boas-vindas e recepção ao fundo" },
+    { src: "/images/recepcao/recepcao-fachada.jpg", alt: "Fachada do Millian Hotel" },
     { src: "/images/sobre/sobre-02.jpg", alt: "Detalhe de planta decorativa na entrada do hotel" },
     { src: "/images/recepcao/recepcao-amenities.jpg", alt: "Amenities disponíveis na recepção do hotel" },
     { src: "/images/sobre/sobre-03.jpg", alt: "Corredor de quartos do hotel" },

@@ -7,7 +7,7 @@ import { hotel } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Política de Cookies",
   description:
-    "Quais cookies o site do Hotel Millian usa, para que servem e como gerenciar suas preferências.",
+    "Quais cookies o site do Millian Hotel usa, para que servem e como gerenciar suas preferências.",
   alternates: { canonical: "/politica-de-cookies" },
 };
 

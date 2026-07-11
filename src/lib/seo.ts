@@ -1,7 +1,7 @@
 import { hotel, avaliacoes, comodidadesQuarto, servicosHotel, faq } from "@/lib/content";
 
 export const SITE_URL = "https://millianhotel.com.br";
-export const SITE_NAME = "Hotel Millian";
+export const SITE_NAME = "Millian Hotel";
 
 export function getHotelJsonLd() {
   return {

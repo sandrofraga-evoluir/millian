@@ -8,7 +8,7 @@ import { empresas, hotel } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Empresas",
   description:
-    "Contas corporativas e operadoras: conheça as condições B2B do Hotel Millian, em Jundiaí-SP, e fale com nossa equipe comercial.",
+    "Contas corporativas e operadoras: conheça as condições B2B do Millian Hotel, em Jundiaí-SP, e fale com nossa equipe comercial.",
   alternates: { canonical: "/empresas" },
 };
 
@@ -26,7 +26,7 @@ export default function EmpresasPage() {
           <div className="mt-8 flex justify-center">
             <WhatsappButton
               label="Falar com o comercial"
-              message="Olá! Represento uma empresa e gostaria de saber mais sobre as condições corporativas do Hotel Millian."
+              message="Olá! Represento uma empresa e gostaria de saber mais sobre as condições corporativas do Millian Hotel."
             />
           </div>
         </Reveal>

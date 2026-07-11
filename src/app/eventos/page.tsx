@@ -9,7 +9,7 @@ import { eventos, pacotesLazer, imagens } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Eventos",
   description:
-    "Estrutura do Hotel Millian para reuniões corporativas e pequenos encontros em Jundiaí-SP: sala de reunião para até 10 pessoas e salão para até 60.",
+    "Estrutura do Millian Hotel para reuniões corporativas e pequenos encontros em Jundiaí-SP: sala de reunião para até 10 pessoas e salão para até 60.",
   alternates: { canonical: "/eventos" },
 };
 
@@ -26,7 +26,7 @@ export default function EventosPage() {
           <div className="mt-8">
             <WhatsappButton
               label="Consultar disponibilidade"
-              message="Olá! Gostaria de saber mais sobre a estrutura para eventos do Hotel Millian."
+              message="Olá! Gostaria de saber mais sobre a estrutura para eventos do Millian Hotel."
             />
           </div>
         </Reveal>
@@ -115,7 +115,7 @@ export default function EventosPage() {
             </div>
             <WhatsappButton
               label="Perguntar sobre pacotes"
-              message="Olá! Gostaria de saber mais sobre os pacotes de lazer do Hotel Millian."
+              message="Olá! Gostaria de saber mais sobre os pacotes de lazer do Millian Hotel."
               variant="outline"
               className="shrink-0"
             />
