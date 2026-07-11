@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { CookieConsent } from "@/components/cookie-consent";
+import { WhatsappFloat } from "@/components/whatsapp-float";
 import { SITE_URL, SITE_NAME, getHotelJsonLd } from "@/lib/seo";
 
 const fraunces = Fraunces({
@@ -85,6 +86,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="flex-1 pt-28">{children}</main>
         <SiteFooter />
+        <WhatsappFloat />
         <CookieConsent />
       </body>
     </html>
