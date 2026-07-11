@@ -5,9 +5,10 @@ import { SectionHeading } from "@/components/section-heading";
 import { hotel, localizacao } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Localização | Hotel Millian",
+  title: "Localização",
   description:
     "O Hotel Millian fica na Av. Nove de Julho, em Jundiaí-SP, a 400m do Jundiaí Shopping e perto dos principais parques da região.",
+  alternates: { canonical: "/localizacao" },
 };
 
 export default function LocalizacaoPage() {

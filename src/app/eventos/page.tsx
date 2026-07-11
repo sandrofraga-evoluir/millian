@@ -7,9 +7,10 @@ import { WhatsappButton } from "@/components/whatsapp-button";
 import { eventos, pacotesLazer, imagens } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Eventos | Hotel Millian",
+  title: "Eventos",
   description:
     "Estrutura do Hotel Millian para reuniões corporativas e pequenos encontros em Jundiaí-SP: sala de reunião para até 10 pessoas e salão para até 60.",
+  alternates: { canonical: "/eventos" },
 };
 
 export default function EventosPage() {

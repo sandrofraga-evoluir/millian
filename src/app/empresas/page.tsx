@@ -6,9 +6,10 @@ import { WhatsappButton } from "@/components/whatsapp-button";
 import { empresas, hotel } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Empresas | Hotel Millian",
+  title: "Empresas",
   description:
     "Contas corporativas e operadoras: conheça as condições B2B do Hotel Millian, em Jundiaí-SP, e fale com nossa equipe comercial.",
+  alternates: { canonical: "/empresas" },
 };
 
 export default function EmpresasPage() {

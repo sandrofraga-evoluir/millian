@@ -7,9 +7,10 @@ import { WhatsappButton } from "@/components/whatsapp-button";
 import { quartos, comodidadesQuarto } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Quartos | Hotel Millian",
+  title: "Quartos",
   description:
     "Conheça os quartos Standard e Suíte do Hotel Millian, em Jundiaí-SP: ar-condicionado, TV, frigobar, Wi-Fi, cofre e secador de cabelo.",
+  alternates: { canonical: "/quartos" },
 };
 
 export default function QuartosPage() {

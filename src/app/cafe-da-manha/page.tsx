@@ -6,9 +6,10 @@ import { WhatsappButton } from "@/components/whatsapp-button";
 import { cafeDaManha, imagens } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Café da manhã | Hotel Millian",
+  title: "Café da manhã",
   description:
     "Café da manhã estilo continental, self-service, com comidas frescas preparadas no próprio Hotel Millian, em Jundiaí-SP.",
+  alternates: { canonical: "/cafe-da-manha" },
 };
 
 export default function CafeDaManhaPage() {

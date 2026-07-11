@@ -13,6 +13,7 @@ export const hotel = {
     completo: "Av. Nove de Julho, 2681, Anhangabaú, Jundiaí - SP, 13.208-056",
     mapsQuery: "Hotel Millian, Av. Nove de Julho, 2681, Anhangabaú, Jundiaí - SP, 13208-056",
   },
+  geo: { latitude: -23.1985055, longitude: -46.8905613 },
   telefones: ["(11) 3395-4493", "(11) 98404-3609"],
   whatsapp: {
     numero: "5511984043609",

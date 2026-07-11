@@ -5,9 +5,10 @@ import { Carousel } from "@/components/carousel";
 import { historia, imagens } from "@/lib/content";
 
 export const metadata: Metadata = {
-  title: "Sobre | Hotel Millian",
+  title: "Sobre",
   description:
     "A história do Hotel Millian: fundado em 2008 em Jundiaí-SP por uma família no ramo hoteleiro há mais de 40 anos.",
+  alternates: { canonical: "/sobre" },
 };
 
 const marcos = [
