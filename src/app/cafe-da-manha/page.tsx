@@ -19,7 +19,7 @@ export default function CafeDaManhaPage() {
         <Reveal>
           <SectionHeading
             eyebrow="Café da manhã"
-            title="Mesa farta, todo santo dia."
+            title="Mesa farta, café da manhã completo, todos os dias."
             description={cafeDaManha.intro}
           />
           <ul className="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 text-sm text-muted-foreground">

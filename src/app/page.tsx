@@ -37,8 +37,8 @@ export default function Home() {
             Jundiaí · SP
           </span>
           <h1 className="mt-6 text-5xl leading-[1.05] text-foreground sm:text-6xl">
-            Hospitalidade de família na{" "}
-            <span className="italic text-primary">Nove de Julho</span>.
+            Hospitalidade e conforto na melhor localização da cidade,{" "}
+            <span className="italic text-primary">Av. Nove de Julho</span>.
           </h1>
           <p className="mt-4 text-sm font-medium text-brass">{hotel.slogan}</p>
           <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
