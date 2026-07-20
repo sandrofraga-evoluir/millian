@@ -171,7 +171,6 @@ export const quartos: Quarto[] = [
       { src: "/images/quartos/suite-08.jpg", alt: "Quarto da Suíte com cama de casal, cortinas e frigobar" },
       { src: "/images/quartos/suite-09.jpg", alt: "Toalhas e amenities Millian decorativos sobre a cama da Suíte" },
       { src: "/images/quartos/suite-10.jpg", alt: "Escrivaninha e guarda-roupa da Suíte, vistos a partir da porta" },
-      { src: "/images/quartos/suite-11.jpg", alt: "TV, guarda-roupa com cofre e poltrona da Suíte" },
       { src: "/images/quartos/suite-12.jpg", alt: "Vista da janela da Suíte, com a cidade de Jundiaí ao fundo" },
     ],
   },
