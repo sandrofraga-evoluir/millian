@@ -101,7 +101,7 @@ export default function Home() {
           <SectionHeading
             eyebrow="Acomodações"
             title="Quartos pensados para descansar de verdade."
-            description="Duas categorias, ambas com ar-condicionado, TV, frigobar, Wi-Fi, cofre e secador de cabelo."
+            description="Quartos padronizados em 3 tamanhos diferentes, todos equipados com ar-condicionado, TV, frigobar, Wi-Fi, cofre e secador de cabelo."
           />
         </Reveal>
         <div className="mt-12 grid gap-6 sm:grid-cols-2">
