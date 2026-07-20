@@ -166,11 +166,13 @@ export const quartos: Quarto[] = [
     imagens: [
       { src: "/images/quartos/suite-01.jpg", alt: "Cama de casal queen da Suíte, com toalhas decorativas" },
       { src: "/images/quartos/suite-02.jpg", alt: "Poltrona, TV e closet da Suíte" },
-      { src: "/images/quartos/suite-03.jpg", alt: "Banheiro da Suíte, com toalhas e secador de cabelo" },
       { src: "/images/quartos/suite-04.jpg", alt: "Bandeja de café da manhã servida na cama da Suíte" },
-      { src: "/images/quartos/suite-05.jpg", alt: "Vista geral da Suíte, com cama de casal queen e frigobar" },
       { src: "/images/quartos/suite-06.jpg", alt: "Detalhe do banheiro da Suíte, com amenities Millian" },
-      { src: "/images/quartos/suite-07.jpg", alt: "Suíte com cama de casal queen, escrivaninha e janela" },
+      { src: "/images/quartos/suite-08.jpg", alt: "Quarto da Suíte com cama de casal, cortinas e frigobar" },
+      { src: "/images/quartos/suite-09.jpg", alt: "Toalhas e amenities Millian decorativos sobre a cama da Suíte" },
+      { src: "/images/quartos/suite-10.jpg", alt: "Escrivaninha e guarda-roupa da Suíte, vistos a partir da porta" },
+      { src: "/images/quartos/suite-11.jpg", alt: "TV, guarda-roupa com cofre e poltrona da Suíte" },
+      { src: "/images/quartos/suite-12.jpg", alt: "Vista da janela da Suíte, com a cidade de Jundiaí ao fundo" },
     ],
   },
 ];
