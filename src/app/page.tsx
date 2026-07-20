@@ -100,7 +100,7 @@ export default function Home() {
         <Reveal>
           <SectionHeading
             eyebrow="Acomodações"
-            title="Quartos pensados para descansar de verdade."
+            title="Quartos pensados para seu conforto."
             description="Quartos padronizados em 3 tamanhos diferentes, todos equipados com ar-condicionado, TV, frigobar, Wi-Fi, cofre e secador de cabelo."
           />
         </Reveal>
