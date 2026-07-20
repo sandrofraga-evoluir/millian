@@ -142,7 +142,7 @@ export default function Home() {
               Café da manhã
             </span>
             <h2 className="mt-4 text-4xl leading-[1.1] text-foreground sm:text-5xl">
-              Mesa farta, café da manhã completo, todos os dias.
+              Café da manhã completo, todos os dias.
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
               Pães, frutas e frios preparados na cozinha do hotel, servidos
