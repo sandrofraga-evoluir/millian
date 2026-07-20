@@ -32,7 +32,7 @@ export const diferenciais = [
   {
     titulo: "Tradição de família",
     descricao:
-      "A família está no ramo hoteleiro há mais de 40 anos. O Millian nasceu em 2008 da reforma completa de um prédio na principal avenida de Jundiaí — e leva o nome da Fazenda Millian, no interior de São Paulo, onde o fundador nasceu.",
+      "Com mais de 40 anos de tradição no ramo hoteleiro, a família deu vida ao Millian em 2008, a partir da reforma completa de um prédio na principal avenida de Jundiaí. O nome é uma homenagem à Fazenda Millian, no interior de São Paulo, terra natal do fundador.",
   },
   {
     titulo: "Localização privilegiada",
