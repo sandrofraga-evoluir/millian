@@ -14,9 +14,9 @@ export function SiteFooter() {
             <p className="font-heading text-2xl text-white">Millian Hotel</p>
             <div className="mt-4 flex flex-wrap items-start gap-6">
               <p className="max-w-sm text-sm leading-relaxed text-white/60">
-                Um hotel de família na principal avenida de Jundiaí, recebendo
-                hóspedes há 18 anos com o cuidado de quem está no ramo
-                hoteleiro há mais de quatro décadas.
+                Há 18 anos na principal avenida de Jundiaí, o Millian Hotel
+                carrega o cuidado e a tradição de mais de quatro décadas no
+                ramo hoteleiro.
               </p>
               <PetFriendlyBadge />
             </div>
