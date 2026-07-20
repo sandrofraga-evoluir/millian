@@ -42,7 +42,7 @@ export default function Home() {
           </h1>
           <p className="mt-4 text-sm font-medium text-brass">{hotel.slogan}</p>
           <p className="mt-4 max-w-md text-base leading-relaxed text-muted-foreground">
-            Um hotel de família no coração de Jundiaí, com recepção 24 horas,
+            Um hotel familiar no coração de Jundiaí, com recepção 24 horas,
             café da manhã caseiro e o cuidado de quem trata cada hóspede como
             visita de casa.
           </p>
