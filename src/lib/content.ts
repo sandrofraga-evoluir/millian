@@ -40,7 +40,7 @@ export const diferenciais = [
       "Na Av. Nove de Julho, a 400m do Jundiaí Shopping, perto de mercados, farmácias, bares e restaurantes — e a poucos minutos da rodoviária e dos principais parques da região.",
   },
   {
-    titulo: "Café da manhã farto",
+    titulo: "Café da manhã completo",
     descricao:
       "Estilo continental, self-service, com comida fresca preparada no próprio hotel: pães, frutas, frios, bolos, ovos, tortas e muito mais.",
   },
