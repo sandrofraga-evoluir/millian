@@ -16,7 +16,7 @@ export function getHotelJsonLd() {
       `${SITE_URL}/images/recepcao/recepcao-hotel.jpg`,
       `${SITE_URL}/images/recepcao/recepcao-fachada.jpg`,
     ],
-    telephone: "+55 11 3395-4493",
+    telephone: "+55 11 3395-4499",
     priceRange: "$$",
     address: {
       "@type": "PostalAddress",
