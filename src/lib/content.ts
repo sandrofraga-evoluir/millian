@@ -280,11 +280,10 @@ export const imagens = {
     { src: "/images/recepcao/recepcao-amenities.jpg", alt: "Amenities Millian sobre a toalha, na cama" },
   ],
   cafe: [
-    { src: "/images/cafe/cafe-01.jpg", alt: "Mesa farta de café da manhã com pães, frutas e bolos" },
+    cafeBuffetPaes,
     { src: "/images/cafe/cafe-16.jpg", alt: "Hóspede servindo frutas frescas no buffet do café da manhã" },
     { src: "/images/cafe/cafe-18.jpg", alt: "Sanduíches naturais fatiados, com presunto, queijo e tomate" },
     { src: "/images/cafe/cafe-19.jpg", alt: "Coxinhas, kibes e bolo servidos no buffet do café da manhã" },
-    cafeBuffetPaes,
     cafeEstacaoQuente,
     { src: "/images/cafe/cafe-20.jpg", alt: "Fatia de bolo de chocolate sendo servida no café da manhã" },
     cafePratoFrutas,
