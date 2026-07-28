@@ -7,6 +7,7 @@ import { SiteFooter } from "@/components/site-footer";
 import { CookieConsent } from "@/components/cookie-consent";
 import { WhatsappFloat } from "@/components/whatsapp-float";
 import { SITE_URL, SITE_NAME, getHotelJsonLd } from "@/lib/seo";
+import { CONSENT_STORAGE_KEY } from "@/lib/consent";
 
 const fraunces = Fraunces({
   variable: "--font-heading",
@@ -82,6 +83,26 @@ export default function RootLayout({
       className={`${fraunces.variable} ${jakarta.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-foreground font-sans">
+        <Script
+          id="consent-default"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){window.dataLayer.push(arguments);}
+window.gtag = gtag;
+gtag('consent', 'default', {
+  analytics_storage: 'denied',
+  ad_storage: 'denied',
+  ad_user_data: 'denied',
+  ad_personalization: 'denied'
+});
+try {
+  if (window.localStorage.getItem('${CONSENT_STORAGE_KEY}') === 'accepted') {
+    gtag('consent', 'update', { analytics_storage: 'granted' });
+  }
+} catch (e) {}`,
+          }}
+        />
         <Script
           id="gtm-script"
           strategy="afterInteractive"
